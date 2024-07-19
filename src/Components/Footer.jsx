@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaLinkedin,  FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram, FaLinkedin,  FaGithubSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className='absolute bottom-0 w-full'>
+    <footer className='absolute mt-2 bottom-0 w-full'>
       <div className='bottom-0 bg-slate-200 w-full'>
       <hr />
       <div className='flex flex-col vv:flex-row justify-between items-center p-2 vv:p-4 gap-y-4 vv:gap-y-0'>
@@ -22,9 +22,9 @@ function Footer() {
           <Link to='#'>
             <FaInstagram className='sm:w-7 sm:h-7 md:w-5 md:h-5'/>
           </Link>
-          <Link to='#'>
-            <FaFacebookSquare className='sm:w-7 sm:h-7 md:w-5 md:h-5'/>
-          </Link>
+          <a href='https://github.com/Prince3255' target="_blank">
+            <FaGithubSquare className='sm:w-7 sm:h-7 md:w-5 md:h-5'/>
+          </a>
         </div>
       </div>
     </div>
