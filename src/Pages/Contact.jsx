@@ -5,13 +5,15 @@ export default function Contact() {
 
     const [result, setResult] = useState("");
 
+    const contactKey = import.meta.env.VITE_CONTACT_KEY;
+
 
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "37d92c8a-61a3-4b43-bc39-4176b6c3d3d8");
+        formData.append("access_key", contactKey);
     
         const response = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
