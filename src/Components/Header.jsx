@@ -17,7 +17,7 @@ const handleClick = () => {
 
   return (
       <header className='shadow z-50 top-0 fixed w-screen'>
-        <nav className='bg-[#FFFFFF] border-gray-200 w-full lg:h-32 py-4'>
+        <nav className='bg-[#FFFFFF] border-gray-200 w-full lg:h-32 py-[7px] sm:py-4'>
         <div className='md:flex flex-row justify-between items-center flex-wrap mx-1 p-2 w-12/12'>
           <Link to="/" className='inline-block'>
             <img src={logoimg} alt="Globe Talks" className='w-48 md:w-[9.5rem] object-contain' />
@@ -33,7 +33,7 @@ const handleClick = () => {
           </div>
 
 
-          <div className='visible md:hidden flex flex-row w-full justify-around items-center mt-4'>
+          <div className='visible md:hidden flex flex-row w-full justify-around items-center mt-[5px]'>
             <div className='flex w-9/12 bg-slate-200 rounded-full drop-shadow-lg justify-between items-center'>
               <SearchBar />
             </div>
