@@ -2,11 +2,13 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 const apiKey = import.meta.env.VITE_NEWS_API_KEY;
 
+
 export const NewsApi = createApi({
     reducerPath: 'NewsApi',
     baseQuery: fetchBaseQuery({
         baseUrl: 'https://google-news13.p.rapidapi.com',
         prepareHeaders: (headers) => {
+            // console.log(apiKey)
             if (apiKey) {
                 headers.set('x-rapidapi-key', apiKey);
             } else {
