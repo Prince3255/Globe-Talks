@@ -20,7 +20,7 @@ const handleClick = () => {
         <nav className='bg-[#FFFFFF] border-gray-200 w-full lg:h-32 py-[7px] sm:py-4'>
         <div className='md:flex flex-row justify-between items-center flex-wrap mx-1 p-2 w-12/12'>
           <Link to="/" className='inline-block'>
-            <img src={logoimg} alt="Globe Talks" className='w-48 md:w-[9.5rem] object-contain' />
+            <img src={logoimg} alt="Globe Talks" className='w-32 sm:w-48 md:w-[9.5rem] object-contain' />
           </Link>
 
           <div className='hidden md:block flex w-9/12 mx-auto my-2 md:my-0 md:w-5/12 bg-slate-200 rounded-full drop-shadow-lg justify-between items-center'>
