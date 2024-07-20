@@ -8,7 +8,6 @@ export const NewsApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: 'https://google-news13.p.rapidapi.com',
         prepareHeaders: (headers) => {
-            // console.log(apiKey)
             if (apiKey) {
                 headers.set('x-rapidapi-key', apiKey);
             } else {
