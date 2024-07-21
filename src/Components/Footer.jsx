@@ -5,8 +5,8 @@ import { BsTwitterX } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className='absolute m-0 sm:mt-2 bottom-0 w-full'>
-      <div className='bottom-0 bg-slate-200 w-full'>
+    <footer className='relative m-0 sm:mt-2 bottom-0 w-full'>
+      <div className='absolute bottom-0 bg-slate-200 w-full'>
       <hr />
       <div className='flex flex-col vv:flex-row justify-between items-center p-2 vv:p-4 gap-y-4 vv:gap-y-0'>
         <div className='hover:underline cursor-pointer md:text-base sm:text-xl self-start vv:self-baseline'>
