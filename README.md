@@ -9,7 +9,6 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 ## Table of Contents
 
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -26,6 +25,8 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 ## Project Structure
 
 The project structure is organized as follows:
+
+```
 
 globe-talks/
 ├── src/
@@ -76,6 +77,7 @@ globe-talks/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
+```
 
 
 ## Installation
@@ -111,10 +113,10 @@ Contributions are welcome! Please follow these steps to contribute:
 5. **Open a Pull Request.**
 
 ## Acknowledgements
--- Google News API (Rapid api)
--- ReactJS
--- Tailwind CSS
--- Vite
--- Redux
--- React icons
--- GitHub
+- Google News API (Rapid api)
+- ReactJS
+- Tailwind CSS
+- Vite
+- Redux
+- React icons
+- GitHub
