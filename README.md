@@ -9,7 +9,7 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 ## Table of Contents
 
 - [Features](#features)
-- [Live Project](#liveproject)
+- [Demo](#Demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -23,7 +23,7 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 - **Routing**: Smooth navigation across different sections of the site.
 - **Responsive Design**: Fully responsive for all device sizes.
 
-## Live Project
+## Demo
 
 Explore the live version of Globe Talks: [Globe Talks](https://globe-talks.vercel.app/)
 
