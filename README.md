@@ -9,7 +9,7 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 ## Table of Contents
 
 - [Features](#features)
-- [Live Project](#live project)
+- [Live Project](#liveproject)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
