@@ -9,6 +9,7 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 ## Table of Contents
 
 - [Features](#features)
+- [Demo](#Demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -21,6 +22,10 @@ Globe Talks provides a seamless experience for browsing news articles from aroun
 - **Pagination**: Easily navigate through different pages of news.
 - **Routing**: Smooth navigation across different sections of the site.
 - **Responsive Design**: Fully responsive for all device sizes.
+
+## Demo
+
+Explore the live version of Globe Talks: [Globe Talks](https://globe-talks.vercel.app/)
 
 ## Project Structure
 
